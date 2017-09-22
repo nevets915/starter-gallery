@@ -1,33 +1,10 @@
-#Change Log
+<h1>Changelog</h1>
+<hr/>
+<h2>Newest entries on top.</h2>
+<hr/>
 
-Team membership:  AB (Captain) & CD (Mate)  
-Team conventions: Allman notation, markdown for changelog  
-Changelog format: [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
-
-## *Version x.x*
-
-Release Date: Jul 26, 2027
-
-## New Components
-
--   controllers
-
-    -   serbian (AB)
-    
-## Updated Components
-
--   controllers
-
-    -   german (CD)
-    -   hindi (CD)
-
--   models
-
-    -   italian (AB)
-
--   views
-
-    -   slovenian (AB)
-    -   swedish
-
-
+<p>George:</p>
+    <ul>
+    <li>Static to Trivial Website Conversion Done</li>
+    </ul>
+<hr/>
