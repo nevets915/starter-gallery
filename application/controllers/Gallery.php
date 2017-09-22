@@ -12,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  *
  * @author namblue
  */
-class Gallery
+class Gallery extends Application
 {
     /**
      * Index Page for this controller.
@@ -28,10 +28,8 @@ class Gallery
      */
     public function index()
     {
-        /**
-         * $this->data['pagebody'] = 'welcome_message';
-         * $this->render(); 
-         */
-        $this->load->view('gallery');
+        //$this->load->view('gallery');
+        $this->data['pagebody'] = 'gallery';
+        $this->render();       
     }
 }

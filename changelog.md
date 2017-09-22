@@ -8,3 +8,8 @@
     <li>Static to Trivial Website Conversion Done</li>
     </ul>
 <hr/>
+<p>Steven:</p>
+    <ul>
+    <li>Trivial CI to basic CI Website Conversion Done</li>
+    </ul>
+<hr/>
