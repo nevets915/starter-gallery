@@ -2,7 +2,11 @@
 <hr/>
 <h2>Newest entries on top.</h2>
 <hr/>
-
+<p>George:</p>
+    <ul>
+    <li>Modified .gitignore to include database.php</li>
+    </ul>
+<hr/>
 <p>George:</p>
     <ul>
     <li>Static to Trivial Website Conversion Done</li>
