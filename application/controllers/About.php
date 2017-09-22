@@ -12,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  *
  * @author namblue
  */
-class About
+class About extends Application
 {
     /**
      * Index Page for this controller.
@@ -28,10 +28,8 @@ class About
      */
     public function index()
     {
-        /**
-         * $this->data['pagebody'] = 'welcome_message';
-         * $this->render(); 
-         */
-        $this->load->view('about');
+        //$this->load->view('about');
+        $this->data['pagebody'] = 'about';
+        $this->render(); 
     }
 }
