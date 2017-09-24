@@ -5,11 +5,8 @@
 <p>George:</p>
     <ul>
     <li>Completed basic CI to good CI</li>
-    </ul>
-<hr/>
-<p>George:</p>
-    <ul>
     <li>Modified .gitignore to include database.php</li>
+    <li>Removed tracking of database.php for security reasons</li>
     </ul>
 <hr/>
 <p>Steven:</p>
