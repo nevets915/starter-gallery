@@ -28,8 +28,28 @@ class Gallery extends Application
      */
     public function index()
     {
-        //$this->load->view('gallery');
+        $this->data['pagetitle'] = "Gallery";
+        //get all the images from our model
+        $pix = $this->images->all();
+        
+        //build an array of formatted cells for them
+        foreach ($pix as $picture)
+            $cells[] = $this->parser->parse('_cell', (array) $picture, true);
+        
+        //prime the table class
+        $this->load->library('table');
+        $params = array(
+            'table_open' => '<table class="gallery">',
+            'table_start' => '<td class="oneimage">',
+            'cell_alt_start' => '<td calss"oneimage">'
+        );
+        $this->table->set_template($params);
+        
+        //generate the table
+        $rows = $this->table->make_columns($cells, 3);
+        $this->data['thetable'] = $this->table->generate($rows);
+        
         $this->data['pagebody'] = 'gallery';
-        $this->render();       
+        $this->render();
     }
 }
