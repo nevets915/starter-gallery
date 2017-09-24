@@ -4,16 +4,21 @@
 <hr/>
 <p>George:</p>
     <ul>
-    <li>Modified .gitignore to include database.php</li>
+    <li>Completed basic CI to good CI</li>
     </ul>
 <hr/>
 <p>George:</p>
     <ul>
-    <li>Static to Trivial Website Conversion Done</li>
+    <li>Modified .gitignore to include database.php</li>
     </ul>
 <hr/>
 <p>Steven:</p>
     <ul>
     <li>Trivial CI to basic CI Website Conversion Done</li>
+    </ul>
+<hr/>
+<p>George:</p>
+    <ul>
+    <li>Static to Trivial Website Conversion Done</li>
     </ul>
 <hr/>
